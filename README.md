@@ -1,5 +1,7 @@
 # BAGUETTE RUN: Coffee Break
 
+**Play online:** <https://slazyart.github.io/baguette-run-coffee-break/>
+
 A complete, mobile-first endless runner about a paper baguette, a lot of cardboard
 and a very small cup of coffee. Everything is rendered procedurally with Canvas 2D,
 CSS and local fonts — there are no CDN requests or runtime asset downloads.
@@ -133,11 +135,11 @@ Examples:
 
 - **Netlify / Vercel / Cloudflare Pages:** build command `npm run build`, output
   directory `dist`.
-- **GitHub Pages:** push the repository to GitHub, then in
-  **Settings → Pages → Build and deployment** choose **GitHub Actions** as the
-  source. The included `.github/workflows/deploy-pages.yml` workflow builds and
-  publishes the game on every push to `main` (and can also be run manually from
-  the Actions tab). No `gh-pages` branch is needed.
+- **GitHub Pages:** the live build for this repository is at
+  <https://slazyart.github.io/baguette-run-coffee-break/>. The Pages source is
+  **GitHub Actions**, and the included `.github/workflows/deploy-pages.yml`
+  workflow builds and publishes the game on every push to `main` (and can also be
+  run manually from the Actions tab). No `gh-pages` branch is needed.
 - **Any web server:** copy `dist/` to the document root or a subfolder.
 
 The workflow has the correct Pages permissions and deploys the `dist` artifact
