@@ -1,0 +1,17 @@
+{
+  "name": "baguette-run-coffee-break",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A tiny handmade endless runner about a baguette, paper crafts and coffee.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  }
+}
